@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rotations</title>
+<style type="text/css" media="all">
+.frame {
+	height: 102px; width: 408px;
+	border: 1px solid;
+	margin: 50px 25px;
+	background: #EEE;
+	}
+.frame div {
+	height: 100px; width: 100px;
+	border: 1px solid;
+	background: #EEE;
+	display: inline-block;
+	}
+.frame:hover div {
+	-webkit-transform: translateX(75px) rotate(1590deg) translateY(-75px);
+	-moz-transform: translateX(75px) rotate(1590deg) translateY(-75px);
+}
+.frame:hover div + div {
+	-webkit-transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 112.5, 64.9519);
+	-moz-transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 112.5, 64.9519);
+}
+.frame:hover div + div + div {
+	-webkit-transform: translateX(75px) translateY(-75px) rotate(1590deg);
+	-moz-transform: translateX(75px) translateY(-75px) rotate(1590deg);
+}
+.frame:hover div + div + div + div {
+	-webkit-transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 75, -75);
+	-moz-transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 75, -75);
+}
+#d02 div {
+	-webkit-transition: 3s all ease-out;
+	-moz-transition: 3s all ease-out;
+}
+
+</style>
+</head>
+<body>
+
+<p>Key:</p>
+<ol>
+<li><code>transform: translateX(75px) rotate(1590deg) translateY(-75px);</code></li>
+<li><code>transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 112.5, 64.9519);</code></li>
+<li><code>transform: translateX(75px) translateY(-75px) rotate(1590deg);</code></li>
+<li><code>transform: matrix(-0.866025, 0.5, -0.5, -0.866025, 75, -75);</code></li>
+</ol>
+
+<div class="frame" id="d01">
+<div>1</div><div>2</div><div>3</div><div>4</div>
+</div>
+
+<div class="frame" id="d02">
+<div>1</div><div>2</div><div>3</div><div>4</div>
+</div>
+
+
+</body>
+</html>
