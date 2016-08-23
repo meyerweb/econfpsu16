@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" dir="ltr" style="" lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="ImageToolbar" content="false">
+<link rel="shortcut icon" href="https://elements.psu.edu/sites/default/files/elementsfavicon.png">
+<link rel="shortlink" href="https://www.elements.psu.edu/node/1">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="https://www.elements.psu.edu/2016">
+  <title>Elements | Elements Web Conference</title>
+  <style>
+@import url("https://elements.psu.edu/modules/system/system.base.css?o8puqg");
+@import url("https://elements.psu.edu/modules/system/system.messages.css?o8puqg");
+@import url("https://elements.psu.edu/modules/system/system.theme.css?o8puqg");
+</style>
+<style>
+@import url("https://elements.psu.edu/modules/comment/comment.css?o8puqg");
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/date/date_api/date.css?o8puqg");
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/date/date_popup/themes/datepicker.1.7.css?o8puqg");
+@import url("https://elements.psu.edu/modules/field/theme/field.css?o8puqg");
+@import url("https://elements.psu.edu/sites/all/modules/logintoboggan/logintoboggan.css?o8puqg");
+@import url("https://elements.psu.edu/modules/node/node.css?o8puqg");
+@import url("https://elements.psu.edu/modules/search/search.css?o8puqg");
+@import url("https://elements.psu.edu/modules/user/user.css?o8puqg");
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/views/css/views.css?o8puqg");
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/ckeditor/css/ckeditor.css?o8puqg");
+</style>
+<style>
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/ctools/css/ctools.css?o8puqg");
+@import url("https://elements.psu.edu/profiles/cod/modules/contrib/panels/css/panels.css?o8puqg");
+</style>
+<style>
+@import url("https://elements.psu.edu/sites/all/themes/elements/css/elements.css?o8puqg");
+</style>
+  <script async="" src="elements_files/fbevents.js"></script><script async="" src="elements_files/gtm.js"></script><script src="elements_files/jquery.js"></script><style type="text/css">:root .sponsor-block
+{display:none !important;}</style><style>img[src="https://www.facebook.com/tr?ev=6034102642559&cd[value]=0.00&cd[currency]=USD&noscript=1"],
+img[src="https://www.facebook.com/tr?id=120063648355866&ev=PageView&noscript=1"]
+{display:none !important;}</style>
+<script>window.jQuery || document.write("<script src='/profiles/cod/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")</script>
+<script src="elements_files/jquery_002.js"></script>
+<script src="elements_files/drupal.js"></script>
+<script src="elements_files/modernizr.js"></script>
+<script src="elements_files/foundation.js"></script><meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge-only"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large-only"><meta class="foundation-mq-large"><meta class="foundation-mq-medium-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-small-only"><meta class="foundation-mq-small"><style></style>
+<script src="elements_files/libs.js"></script>
+<script src="elements_files/app.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"elements","theme_token":"dHIcnZMIqObjJ46UPczetnlZEvCACE2mo8P5bHFxsjE","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/zurb_foundation\/js\/vendor\/modernizr.js":1,"sites\/all\/themes\/elements\/js\/foundation.min.js":1,"sites\/all\/themes\/elements\/js\/libs.min.js":1,"sites\/all\/themes\/elements\/js\/app.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"profiles\/cod\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/cod\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cod\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cod\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cod\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cod\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/elements\/css\/normalize.css":1,"sites\/all\/themes\/elements\/css\/foundation.min.css":1,"sites\/all\/themes\/elements\/css\/elements.css":1}},"better_exposed_filters":{"views":{"sponsors_block":{"displays":{"block":{"filters":[]}}},"cod_news":{"displays":{"block_2":{"filters":[]}}}}},"ogContext":{"groupType":"node","gid":"1"}});</script>
+ <!--  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'> -->
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<meta class="foundation-mq-topbar">
+<style type="text/css">
+@supports (display: flex) {
+	#main-menu {display: flex;}
+	#main-menu > li {order: 1;}
+	#main-menu > li:nth-child(4),
+	#main-menu > li:nth-child(5) {order: 3;}	
+	#main-menu #elements_mark {order: 2;}
+}
+</style>
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-event og-context og-context-node og-context-node-1">
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<!--.page- front.tpl.php -->
+<div role="document" class="page">
+  <!--.l-header -->
+  <header role="banner" class="l-header">
+
+<div class="feature-bg">
+
+          <!--.top-bar -->
+            <nav class="top-bar" data-topbar="" data-options="mobile_show_parent_link:true">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="https://elements.psu.edu/"><img class="mobile-e-mark" src="elements_files/e_small_orange.svg" alt="Elements Web Conference"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Menu</span></a></li>
+        </ul>
+
+
+ 
+<section class="top-bar-section">
+	<div class="top-bar-section-front-pg">
+		<ul id="main-menu" class="main-nav left">
+			<li class="leaf" title="Homepage for the conference" id="elements_mark"><a href="https://www.elements.psu.edu/" title="Homepage for the conference" id="elements_mark" class="active">Home</a></li>
+			<li class="first expanded has-dropdown not-click"><a href="https://www.elements.psu.edu/2016/registration-information">Registration</a>
+			<ul class="dropdown">
+				<li class="title back js-generated">
+				<h5>
+					<a href="javascript:void(0)">Back</a>
+				</h5>
+				</li>
+				<li class="parent-link show-for-small-only"><a class="parent-link js-generated" href="https://www.elements.psu.edu/2016/registration-information">Registration</a></li>
+				<li class="first leaf"><a href="https://www.elements.psu.edu/2016/registration">Register</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/2016/evening-events">Evening Events</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/guest_pass">Evening Event Guest Pass</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/2016/registration-information#travel">Venue and Travel</a></li>
+				<li class="last leaf"><a href="https://www.elements.psu.edu/2016/registration-information#policies">Policies</a></li>
+			</ul>
+			</li>
+			<li class="expanded has-dropdown not-click"><a href="https://www.elements.psu.edu/2016/program">Program</a>
+			<ul class="dropdown">
+				<li class="title back js-generated">
+				<h5>
+					<a href="javascript:void(0)">Back</a>
+				</h5>
+				</li>
+				<li class="parent-link show-for-small-only"><a class="parent-link js-generated" href="https://www.elements.psu.edu/2016/program">Program</a></li>
+				<li class="first leaf"><a href="https://www.elements.psu.edu/2016/program#keynotes">Keynotes</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/2016/schedule">Daily Schedule</a></li>
+				<li class="last leaf"><a href="https://www.elements.psu.edu/2016/schedule/mine">My Schedule</a></li>
+			</ul>
+			</li>
+			<li class="expanded has-dropdown not-click"><a href="https://www.elements.psu.edu/2016/become-sponsor">Sponsorship</a>
+			<ul class="dropdown">
+				<li class="title back js-generated">
+				<h5>
+					<a href="javascript:void(0)">Back</a>
+				</h5>
+				</li>
+				<li class="parent-link show-for-small-only"><a class="parent-link js-generated" href="https://www.elements.psu.edu/2016/become-sponsor">Sponsorship</a></li>
+				<li class="first last leaf"><a href="https://www.elements.psu.edu/2016/sponsors">Our Sponsors</a></li>
+			</ul>
+			</li>
+			<li class="last expanded has-dropdown not-click"><a href="https://www.elements.psu.edu/2016/about-us">About Us</a>
+			<ul class="dropdown">
+				<li class="title back js-generated">
+				<h5>
+					<a href="javascript:void(0)">Back</a>
+				</h5>
+				</li>
+				<li class="parent-link show-for-small-only"><a class="parent-link js-generated" href="https://www.elements.psu.edu/2016/about-us">About Us</a></li>
+				<li class="first leaf"><a href="https://www.elements.psu.edu/2016/about-us">Our Story</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/2016/about-us#travel">travel and venue</a></li>
+				<li class="leaf"><a href="https://www.elements.psu.edu/2016/about-us#conduct">Code of Conduct</a></li>
+				<li class="last leaf"><a href="https://www.elements.psu.edu/2016/about-us#media">Media Guideliines</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</section>
+</nav>   
+      <!--/.top-bar -->
+    
+         <div class="elements-conf">
+           <div class="row">
+             <div class="small-12 columns">
+                <h1 class="elements-title">ELEMENTS: The Web Conference at Penn State</h1>
+                <h2>University Park, PA | June 13-15, 2016</h2>
+              </div>
+          </div>
+        </div>
+
+
+
+          <!--.l-header-region -->
+      <section class="clearfix">
+            <div class="row">
+              <section class="block block-block block-block-8 header">
+  
+      
+    <div class="call">
+<div class="elements-call">It's here!</div>
+
+<div class="feature-buttons">
+<div class="left">
+<div class="why-attend"><a href="https://elements.psu.edu/2016/build-your-own-schedule">Build your schedule</a></div>
+</div>
+
+<div class="right">
+<div class="register-now"><a href="http://wpsu.org/elements2016/">View streaming sessions</a></div>
+</div>
+</div>
+</div>
+  
+  </section>       </div>
+      </section>
+      <!--/.l-header-region -->
+    
+  </div>
+  </header>
+  <!--/.l-header -->
+    <!--.l-featured -->
+  <section class="keynote-front">
+    <div class="row">
+           <section class="block block-block block-block-2">
+  
+      
+    <p><a name="keynotes"></a></p>
+
+<div class="keynote-box">
+<h2>2016 Speakers</h2>
+</div>
+
+<div class="row" id="keynotes">
+<div class="keynote-block small-12 medium-6 large-3 columns">
+<div class="keynote-img"><a href="https://www.elements.psu.edu/2016/scott-stratten"><img src="elements_files/ssround.png"></a></div>
+
+<div class="front-keynote"><a href="https://www.elements.psu.edu/2016/scott-stratten">Scott Stratten</a>
+
+<div class="keynote-title scotts">Expert in viral, social and authentic marketing which he calls Un-Marketing</div>
+</div>
+</div>
+
+<div class="keynote-block small-12 medium-6 large-3 columns">
+<div class="keynote-img"><a href="https://www.elements.psu.edu/2016/eric-meyer"><img src="elements_files/emround.png"></a></div>
+
+<div class="front-keynote"><a href="https://www.elements.psu.edu/2016/eric-meyer">Eric Meyer</a>
+
+<div class="keynote-title ericm">Author, speaker, blogger, CSS samurai, and co-founder of An Event Apart</div>
+</div>
+</div>
+
+<div class="keynote-block small-12 medium-6 large-3 columns">
+<div class="keynote-img"><a href="https://www.elements.psu.edu/2016/debbie-millman"><img src="elements_files/dmround.png"></a></div>
+
+<div class="front-keynote"><a href="https://www.elements.psu.edu/2016/debbie-millman">Debbie Millman</a>
+
+<div class="keynote-title debbiem">Influential designer, author, host of Design Matters and President of Sterling Brands</div>
+</div>
+</div>
+
+<div class="keynote-block small-12 medium-6 large-3 columns">
+<div class="keynote-img"><a href="https://www.elements.psu.edu/2016/scott-dadich"><img src="elements_files/sdround.png"></a></div>
+
+<div class="front-keynote"><a href="https://www.elements.psu.edu/2016/scott-dadich">Scott Dadich</a>
+
+<div class="keynote-title scottd">Award winning designer and Editor in Chief of WIRED magazine</div>
+</div>
+</div>
+</div>
+  
+  </section>         </div>
+  </section>
+  <!--/.l-featured -->
+
+
+    <!--.l-featured -->
+  <section class="workshop-front">
+    <div class="row">
+           <section class="block block-block block-block-28">
+  
+      
+    <p><a name="workshop"></a></p>
+
+<div class="workshop-box">
+<h2>2016 Workshops</h2>
+</div>
+
+<div class="both-workshops">
+<div class="jane">
+<div class="info-block">
+<div class="info-block-text">
+<div class="ww">Wednesday<br>
+Workshop</div>
+
+<h3 class="title"><a href="http://elements.psu.edu/2016/show-your-work">Show Your Work</a></h3>
+
+<div class="spend">Spend a morning with</div>
+
+<div class="name">Jane Bozarth</div>
+</div>
+</div>
+</div>
+
+<div class="eric">
+<div class="info-block">
+<div class="info-block-text">
+<div class="ww">Wednesday<br>
+Workshop</div>
+
+<h3 class="title"><a href="http://elements.psu.edu/2016/css-your-way">CSS Your Way</a></h3>
+
+<div class="spend">Spend an afternoon with</div>
+
+<div class="name">Eric A. Meyer</div>
+</div>
+</div>
+</div>
+</div>
+  
+  </section>         </div>
+  </section>
+  <!--/.l-featured -->
+
+
+  
+  <!--.l-main -->
+  <main role="main" class="row l-main ">
+    <!-- .l-main region -->
+    <!-- <div class=" main columns">
+
+      <a id="main-content"></a>
+
+
+
+      
+
+    </div> -->
+    <!--/.l-main region -->
+  </main>
+  <!--/.l-main -->
+
+      <section class="mission-section">
+    <div class="row clearfix">
+          <section class="block block-block block-block-31">
+  
+      
+    <div class="mission-block">
+<div class="small-12 medium-6 columns words">Discover<br>
+Inspire<br>
+Connect<br>
+Empower<br>
+Transform</div>
+
+<div class="small-12 medium-6 paragraph columns">
+<p>These are five core values of our dynamic community of interactive and creative professionals.</p>
+
+<p>By connecting in sessions and fun networking opportunities, you as an
+ ELEMENTS attendee, will&nbsp;make lasting relationships that offer 
+support&nbsp;well past the conclusion of the 2016 conference.</p>
+
+<p><em>"Learn from those who dare to try."</em></p>
+</div>
+</div>
+
+<div class="full_width_img bottom">&nbsp;</div>
+  
+  </section>     </div>
+  </section>
+
+
+   <section class="sessions">
+    <div class="row">
+        <div class="small-12 columns">
+            <section class="block block-block block-block-32">
+  
+      
+    <p>Sessions let you customize your time at Elements to fit your 
+specific needs. Pick from over fifty presentations, spread across seven 
+tracks. Make your experience as unique as you - and make sure to take in
+ a few sessions outside your normal purview - learn something new!</p>
+
+<div class="session-button"><a href="https://elements.psu.edu/2016/2016-sessions">View session line-up</a></div>
+  
+  </section>        </div>
+      </div>
+  </section>
+
+
+  <section class="news-section">
+    <div class="row">
+        <div class="small-12 columns">
+            <section class="block block-views block-views-cod-news-block-2">
+  
+      
+    <div class="view view-cod-news view-id-cod_news view-display-id-block_2 view-dom-id-aaac242a61401ae43fc24b90c37930f0">
+            <div class="view-header">
+      <div class="news-front-header">
+<h2>NEWS FROM ELEMENTS</h2>
+<div class="news-front-subtitle">Keep up with the goings-on with the latest from the blog.</div>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+      		  <div class="small-12 large-4 columns">
+	      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="news-block clearfix">
+<div class="news-front-img"><a href="https://www.elements.psu.edu/2016/news/discover-your-element%E2%80%9D-photo-challenge"><img src="elements_files/Screen-Shot-2016-06-13-at-10.png" alt="a shot of the stage showing the signage with #econf" width="300" height="300"></a></div>
+<div class="news-front-text clearfix">
+<div class="news-title"><h3><a href="https://www.elements.psu.edu/2016/news/discover-your-element%E2%80%9D-photo-challenge">Discover Your Element” Photo Challenge </a></h3></div>
+<div class="date"><span class="date-display-single">June 13, 2016</span></div>
+<div class="news-body"><p>Connection. Support. Innovation. Fun.</p>
+
+<p>That’s what we’re all about at this conference, and this year we want
+ to offer our community a new way to show your love for all elements of 
+our event... <a href="https://www.elements.psu.edu/2016/news/discover-your-element%E2%80%9D-photo-challenge" class="views-more-link">Read More</a></p></div>
+</div>
+</div></span>  </div>	  </div>
+		  <div class="small-12 large-4 columns">
+	      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="news-block clearfix">
+<div class="news-front-img"><a href="https://www.elements.psu.edu/2016/news/become-part-elements-community"><img src="elements_files/IMG_6347_0.JPG" alt="Photo of the door looking from the Arena Bar and Grill into the Northland Bowling lanes" width="300" height="300"></a></div>
+<div class="news-front-text clearfix">
+<div class="news-title"><h3><a href="https://www.elements.psu.edu/2016/news/become-part-elements-community">Become Part of the Elements Community</a></h3></div>
+<div class="date"><span class="date-display-single">May 23, 2016</span></div>
+<div class="news-body"><p>Here at the Elements Conference, we have been 
+building a community. When you come to the conference, we want you to 
+join the community. That is both a privilege and a responsibility. It is
+ also…... <a href="https://www.elements.psu.edu/2016/news/become-part-elements-community" class="views-more-link">Read More</a></p></div>
+</div>
+</div></span>  </div>	  </div>
+		  <div class="small-12 large-4 columns">
+	      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="news-block clearfix">
+<div class="news-front-img"><a href="https://www.elements.psu.edu/2016/news/top-10-reasons-penn-staters-attend"><img src="elements_files/afterhours01.jpg" alt="men and women laughing in an elevator" width="300" height="300"></a></div>
+<div class="news-front-text clearfix">
+<div class="news-title"><h3><a href="https://www.elements.psu.edu/2016/news/top-10-reasons-penn-staters-attend">Top 10 Reasons for Penn Staters to attend!</a></h3></div>
+<div class="date"><span class="date-display-single">April 28, 2016</span></div>
+<div class="news-body"><ol>
+	<li>It’s a great way to network! Meet leaders from within higher ed and
+ the private sector. In 2015, Elements brought together approximately 
+460 professionals from 26 states and 2 Canadian... <a href="https://www.elements.psu.edu/2016/news/top-10-reasons-penn-staters-attend" class="views-more-link">Read More</a></li></ol></div>
+</div>
+</div></span>  </div>	  </div>
+	    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="news-page-button">
+<a href="https://www.elements.psu.edu/2016/news">Read More News</a>
+</div>    </div>
+  
+  
+</div>  
+  </section>        </div>
+      </div>
+  </section>
+
+
+    <section class="connect-section">
+    <div class="row clearfix">
+          <section class="block block-block block-block-14">
+  
+      
+    <div class="connect-front-header">
+<div class="small-12 large-4 columns">
+<h3>Learn</h3>
+
+<p>Expand your mind...and skill-set...by attending sessions outside your
+ normal scope. We purposefully create diverse programming to foster new 
+ideas and encourage a great educational experience.</p>
+</div>
+
+<div class="small-12 large-4 columns">
+<h3>Engage</h3>
+
+<p>Get out there! Make yourself known and strut your stuff. The conference environment and <a href="https://elements.psu.edu/2016/evening-events" style="color:#fff; text-decoration: underline">evening social events</a> give you the opportunity to network, build new partnerships, make new friends, and have fun.</p>
+</div>
+
+<div class="small-12 large-4 columns">
+<h3>Do</h3>
+
+<p>Be the rock star at work. Go forth and conquer with what you learn at
+ Elements. Turn all that knowledge into experience and share it with 
+your colleagues. Embrace the opportunity to make new ideas happen!</p>
+</div>
+</div>
+  
+  </section>     </div>
+  </section>
+
+
+
+
+       <section class="sponsor-block" style="display: none ! important;">
+                     <div class="sponsor-display">
+            <div class="row">
+                  <section class="block block-views block-views-sponsors-block-block">
+  
+        <h2 class="block-title">WE LOVE OUR SPONSORS</h2>
+    
+    <div class="view view-sponsors-block view-id-sponsors_block view-display-id-block view-dom-id-13811879bbd26e0341169370e21b00ea">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Platinum Sponsor</div>
+<div class="logo"><a href="http://www.psu.edu/" title="Penn State"></a><a href="https://www.elements.psu.edu/2016/sponsors/penn-state"><img src="elements_files/PSU_BLUE.jpg" alt="Penn State's logo" width="220" height="72"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Silver Sponsor</div>
+<div class="logo"><a href="http://aneventapart.com/" title="An Event Apart"></a><a href="https://www.elements.psu.edu/2016/sponsors/event-apart"><img src="elements_files/aneventapartlogo_0.PNG" alt="An Event Apart's logo" width="220" height="55"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Bronze Sponsor</div>
+<div class="logo"><a href="http://braverymedia.co/" title="Bravery Media "></a><a href="https://www.elements.psu.edu/2016/sponsors/bravery-media"><img src="elements_files/bravery-patch-2.png" alt="Bravery Media's logo" width="220" height="117"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Bronze Sponsor</div>
+<div class="logo"><a href="http://www.insidenewcity.com/" title="New City"></a><a href="https://www.elements.psu.edu/2016/sponsors/new-city"><img src="elements_files/NewCity-Logo-Horizontal-1.png" alt="New City's Logo" width="220" height="75"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Bronze Sponsor</div>
+<div class="logo"><a href="https://www.elements.psu.edu/2016/sponsors/verificient-technologies"><img src="elements_files/verificient-email-footer-350px.png" alt="" width="220" height="63"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">In-kind Sponsor</div>
+<div class="logo"><a href="http://www.mstoner.com/" title="mStoner"></a><a href="https://www.elements.psu.edu/2016/sponsors/mstoner"><img src="elements_files/mStonerLogo-1-2.jpg" alt="mStoner logo" width="220" height="35"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">In-kind Sponsor</div>
+<div class="logo"><a href="https://www.oho.com/" title="OHO Interactive"></a><a href="https://www.elements.psu.edu/2016/sponsors/oho-interactive"><img src="elements_files/ohosm.jpg" alt="OHO Interactive's logo" width="220" height="202"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Bronze Sponsor</div>
+<div class="logo"><a href="http://siteimprove.com/" title="Siteimprove"></a><a href="https://www.elements.psu.edu/2016/sponsors/siteimprove"><img src="elements_files/Siteimprove-inline-with-tagline.jpg" alt="Site improve's logo" width="220" height="46"></a></div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">   <div class="small-12 medium-6 large-3 columns">
+<div class="level">Bronze Sponsor</div>
+<div class="logo"><a href="http://www.wevoconversion.com/" title="WEVO Conversion"></a><a href="https://www.elements.psu.edu/2016/sponsors/wevo-conversion"><img src="elements_files/wevo.png" alt="wevo conversion logo" width="220" height="26"></a></div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  
+  </section> 
+                            <div class="ask">
+Sponsors, we simply can't put on a killer show and events without them. Interested in joining in on the fun?<br>
+<a href="https://www.elements.psu.edu/2016/become-sponsor">Please do by becoming a sponsor.</a></div>
+          </div> 
+              </div> 
+      </section>
+
+
+
+<footer class="footer" role="contentinfo">
+      <!--.footer-columns -->
+    <section class="row l-footer-columns">
+              <div class="footer-first medium-3 small-12 columns">
+            <section class="block block-block block-block-3">
+  
+        <h2 class="block-title">About Us</h2>
+    
+    <ul>
+	<li><a href="mailto:elements@psu.edu">Contact Us</a></li>
+	<li>Committee Members</li>
+	<li><a href="https://www.elements.psu.edu/2016/news">News</a></li>
+	<li><a href="https://www.elements.psu.edu/2016/about-us">Our Story</a></li>
+	<li><a href="https://elements.psu.edu/2016/past-conferences">Past Conferences</a></li>
+</ul>
+  
+  </section><section class="block block-block block-block-11">
+  
+      
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T6X2DH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T6X2DH');</script>
+<!-- End Google Tag Manager -->  
+  </section><section class="block block-block block-block-12">
+  
+      
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '120063648355866');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=120063648355866&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Facebook Conversion Code for Checkouts - Elements: The Web Conference at Penn State 1 -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6034102642559', {'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6034102642559&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+  
+  </section>        </div>
+                    <div class="footer-second medium-3 small-12 columns">
+            <section class="block block-block block-block-4">
+  
+        <h2 class="block-title">Conference</h2>
+    
+    <ul>
+	<li><a href="https://elements.psu.edu/2016/registration">Register</a></li>
+	<li><a href="https://elements.psu.edu/2016/news">News</a></li>
+	<li><a href="https://elements.psu.edu/2016/registration-information#travel">Venue and Travel</a></li>
+	<li><a href="https://elements.psu.edu/2016/registration-information#policies">Policies</a></li>
+	<li><a href="https://elements.psu.edu/2016/become-sponsor">Sponsorship</a></li>
+	<li><a href="https://elements.psu.edu/2016/schedule/">Agenda</a></li>
+</ul>
+  
+  </section>        </div>
+                    <div class="footer-third medium-3 small-12 columns">
+            <section class="block block-block block-block-5">
+  
+        <h2 class="block-title">Stay Connected</h2>
+    
+    <ul class="connected">
+	<li>
+	<div class="icon"><a href="https://plus.google.com/111593315029210213736/"><img alt="google plus logo" src="elements_files/icon-social-googleplus.gif"> </a></div>
+
+	<div class="icon"><a href="https://www.facebook.com/econfpsu"><img alt="facebook logo" src="elements_files/icon-social-facebook.gif"> </a></div>
+
+	<div class="icon"><a href="https://twitter.com/econfpsu"><img alt="twitter logo" src="elements_files/icon-social-twitter.gif"> </a></div>
+
+	<div class="icon"><a href="http://www.instagram.com/econfpsu/"><img alt="instagram logo" src="elements_files/icon-social-instagram.gif"> </a></div>
+	</li>
+	<li>
+	<div class="icon"><a href="https://www.flickr.com/photos/psuwebconf/"><img alt="flickr logo" src="elements_files/icon-social-flickr.gif"></a></div>
+
+	<div class="icon"><a href="http://lanyrd.com/2016/econfpsu/"><img alt="lanyrd logo" src="elements_files/icon-social-lanyard.gif"></a></div>
+	</li>
+	<li>
+	<div class="icon"><a href="https://www.linkedin.com/company/elements-the-web-conference-at-penn-state"><img alt="linkedin logo" src="elements_files/icon-social-linkedin.png"></a></div>
+
+	<div class="icon"><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&amp;q=%23psuweb"><img alt="slideshare logo" src="elements_files/slideshare.gif"></a></div>
+
+	<div class="icon"><a href="https://www.elements.psu.edu/rss.xml"><img alt="rss feed logo" src="elements_files/icon-social-rss.gif"></a></div>
+	</li>
+</ul>
+  
+  </section>        <div class="user-account">
+              <h2 class="block-title">User Account</h2>
+               <a href="https://elements.psu.edu/user/login">Log in </a> 
+              <p><a href="https://elements.psu.edu/user/logout">Log out</a> </p>
+             
+             </div>
+         
+             
+        </div>
+                    <div class="footer-fourth medium-3 small-12 columns">
+            <section class="block block-block block-block-6">
+  
+        <h2 class="block-title">Sign Up!</h2>
+    
+    <p>Be the first to know about and all things Web Conference!</p>
+
+<p><!-- Begin MailChimp Signup Form --></p>
+
+<div id="mc_embed_signup">
+<form action="http://psu.us6.list-manage.com/subscribe/post?u=b673acf526&amp;id=fed6354ae7" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div class="clear" id="mce-responses">
+<div class="response" id="mce-error-response" style="display:none">&nbsp;</div>
+
+<div class="response" id="mce-success-response" style="display:none">&nbsp;</div>
+</div>
+
+<div class="mc-field-group" id="mc-2"><label for="mce-FNAME">First Name</label><input id="mce-FNAME" name="FNAME" type="text"></div>
+
+<div class="mc-field-group" id="mc-3"><label for="mce-LNAME">Last Name</label><input id="mce-LNAME" name="LNAME" type="text"></div>
+
+<div class="mc-field-group" id="mc-4"><label for="mce-EMAIL">Email</label><input class="required email" id="mce-EMAIL" name="EMAIL" type="email"></div>
+
+<div class="mc-field-group" id="mc-5"><input class="button" id="mc-embedded-subscribe" name="subscribe" value="Subscribe" type="submit"></div>
+</form>
+</div>
+<!--End mc_embed_signup-->  
+  </section>        </div>
+          </section>
+    <!--/.footer-columns-->
+  
+</footer>
+
+<!--.l-footer -->
+<section class="psu-row">
+            <div class="row">
+            <div class="small-12 columns">
+                  <section class="block block-block block-block-7">
+  
+      
+    
+
+      <small>      
+      <a href="http://www.psu.edu/ur/copyright.html">Copyright</a> © 2015 
+      <a href="http://www.psu.edu/">The Pennsylvania State University</a> | 
+      <a href="http://www.psu.edu/ur/legal.html">Privacy &amp; Legal Statements</a>
+      <a href="http://tlt.its.psu.edu/accessibility">Accessibility</a> | 
+      <a href="http://www.psu.edu/ur/hotline.html">Ethics and Compliance Hotline</a>
+      </small>    
+
+  
+  </section>            </div>
+        </div>
+    </section>
+<!--/.l-footer --> 
+
+  </div>
+<!--/.page -->      <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+
+
+
+
+
+
+</body></html>
