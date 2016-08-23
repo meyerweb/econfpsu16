@@ -6,7 +6,16 @@
 </head>
 <style type="text/css">
 /* econf */
+tr > *:first-child {background: lime;}
+tr:nth-child(odd) td:nth-child(even) {background: fuchsia;}
+a([href*="net"]) {background: yellow; font-size: 300%;}
+em, strong {font-size: 115%;}
+aside em {font-size: 100%;}
+ul *:not(li) {border-top: 1px solid red;}
+img[src] {border: 1px dotted red;}
+a:nth-child(1n+2) {font-size: 300%;}
 
+:empty {border: 1px solid red;}
 </style>
 <body>
 
@@ -23,7 +32,7 @@
 </table>
 
 <ul>
-<li>One</li>
+<li><em>One</em></li>
 <li>2</li>
 <li></li>
 <li> </li>
@@ -44,9 +53,11 @@
 
 <hr>
 
+<section>
 <a href="http://cnn.com/">CNN</a>
-<a href="http://charitynavigator.org/">CN</a>
+<a href="http://charitynavigator.org/" name="CN link">CN</a>
 <a href="http://nc.gov/">NC</a>
+</section>
 
 <hr>
 

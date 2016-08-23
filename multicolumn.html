@@ -14,7 +14,23 @@ footer {margin-top: 3em;}
 em cite {font-style: normal;}
 section {border: 1px solid black; border-width: 1px 0;}
 
-/* econf */
+/* Try in Safari or Chrome; Firefox support is minimal */
+
+section {
+-webkit-column-count: 5;
+-webkit-column-gap: 3em;
+-webkit-column-width: 10em;
+-webkit-column-rule-style: solid;
+-webkit-column-rule-width: 1px;
+-webkit-column-rule-color: red;
+column-count: 5;
+column-gap: 3em;
+column-width: 10em;
+column-rule-style: solid;
+column-rule-width: 1px;
+column-rule-color: red;}
+section p.foreshadow {-webkit-column-span: all; column-span: all;}
+section p {orphans: 3;}
 
 </style>
 <body>

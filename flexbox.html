@@ -5,7 +5,22 @@
 	<title>Flexbox</title>
 </head>
 <style type="text/css">
-/* econf */
+nav {background: hsla(210,100%,50%,0.2);}
+nav > ul > li {
+	background: linear-gradient(
+		to right,
+		hsla(30,100%,50%,0.3) 0%,
+		transparent 33%,
+		transparent 67%,
+		hsla(30,100%,50%,0.3) 100%
+	);
+	border: 1px solid hsla(0,50%,50%,0.5);}
+
+nav > ul {display: flex; margin: 0; padding: 0;
+height: 20em;
+	justify-content: center;
+	align-items: center;}
+nav > ul > li {flex-grow: 0;}
 
 </style>
 <body>
@@ -13,7 +28,7 @@
 <nav>
 	<ul>
 		<li><a href="/">Home</a></li>
-		<li><a href="/">Registration</a>
+		<li><h1><a href="/">Registration</h1></a>
 		<ul>
 			<li><a href="/">Register</a></li>
 			<li><a href="/">Evening Events</a></li>

@@ -56,8 +56,23 @@ img[src="https://www.facebook.com/tr?id=120063648355866&ev=PageView&noscript=1"]
 
 <meta class="foundation-mq-topbar">
 <style type="text/css">
-/* econf */
+#main-menu {transform-style: preserve-3d; perspective: 300px;}
+#main-menu li {animation: swing-down 5s ease-in-out; transform-origin: 50% 100%;}
 
+@keyframes fader {
+	0% {opacity: 0;}
+	25% {opacity: 0.33;}
+	50% {opacity: 0.67;}
+	100% {opacity: 1;}
+}
+
+@keyframes swing-down {
+	0% {transform: rotateZ(-90deg);}
+	40% {transform: rotateZ(45deg);}
+	60% {transform: rotateZ(-30deg);}
+	80% {transform: rotateZ(20deg);}
+	90% {transform: rotateZ(-10deg);}
+}
 </style>
 </head>
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-event og-context og-context-node og-context-node-1">
